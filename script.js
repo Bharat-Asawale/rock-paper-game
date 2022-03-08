@@ -113,23 +113,23 @@ const game = () => {
 
     const loadImg = (player,computer) => {
         if(player=="Rock"){
-            document.getElementById("img1").innerHTML="<img src='../img/rock.png' width=100% height=100%>";
+            document.getElementById("img1").innerHTML="<img src='img/rock.png' width=100% height=100%>";
         }
         else if(player=="Paper"){
-            document.getElementById("img1").innerHTML="<img src='../img/paper.png' width=100% height=100%>";
+            document.getElementById("img1").innerHTML="<img src='img/paper.png' width=100% height=100%>";
         }
         else if(player=="Scissor"){
-            document.getElementById("img1").innerHTML="<img src='../img/scissor.png' width=100% height=100%>";
+            document.getElementById("img1").innerHTML="<img src='img/scissor.png' width=100% height=100%>";
         }
 
         if(computer=="rock"){
-            document.getElementById("img2").innerHTML="<img src='../img/rock.png' width=100% height=100%>";
+            document.getElementById("img2").innerHTML="<img src='img/rock.png' width=100% height=100%>";
         }
         else if(computer=="paper"){
-            document.getElementById("img2").innerHTML="<img src='../img/paper.png' width=100% height=100%>";
+            document.getElementById("img2").innerHTML="<img src='img/paper.png' width=100% height=100%>";
         }
         else if(computer=="scissor"){
-            document.getElementById("img2").innerHTML="<img src='../img/scissor.png' width=100% height=100%>";
+            document.getElementById("img2").innerHTML="<img src='img/scissor.png' width=100% height=100%>";
         }
     }
 
