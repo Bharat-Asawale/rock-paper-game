@@ -106,7 +106,7 @@ header{
 }
 
   
-.tooltiptext {
+.tooltip-text {
     visibility: hidden;
     width: 70px;
     background-color: black;
@@ -116,15 +116,15 @@ header{
     padding: 5px 0;
   }
   
-  .rock-div:hover .tooltiptext {
+  .rock-div:hover .tooltip-text {
     visibility: visible;
   }
 
-  .paper-div:hover .tooltiptext {
+  .paper-div:hover .tooltip-text {
     visibility: visible;
   }
 
-  .scissor-div:hover .tooltiptext {
+  .scissor-div:hover .tooltip-text {
     visibility: visible;
   }
 
