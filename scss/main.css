@@ -124,15 +124,15 @@ header {
 }
 
 .rock {
-  background-image: url(../rock.png);
+  background-image: url(../img/rock.png);
 }
 
 .paper {
-  background-image: url(../paper.png);
+  background-image: url(../img/paper.png);
 }
 
 .scissor {
-  background-image: url(../scissor.png);
+  background-image: url(../img/scissor.png);
 }
 
 .tooltiptext {
